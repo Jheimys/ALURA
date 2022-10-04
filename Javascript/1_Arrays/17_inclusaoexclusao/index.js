@@ -21,3 +21,6 @@ console.log(primeira)
 console.log(cidades)
 
 // As variáveis ultima e primeira recebem o elemento removido
+
+//Exemplo 02
+
