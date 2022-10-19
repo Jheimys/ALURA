@@ -4,8 +4,8 @@ const menorValor = require('./menorValor')
 for(let atual = 0; atual < livros.length; atual++){
    
     let menor = menorValor(livros, atual)
-    console.log("menor:", menor)
-    console.log(livros[menor])
+    //console.log("menor:", menor)
+    //console.log(livros[menor])
     
     let livroAtual = livros[atual]
     //console.log(livroAtual)
@@ -17,5 +17,4 @@ for(let atual = 0; atual < livros.length; atual++){
     livros[menor] = livroAtual
     
 }
-
-//console.log(livros)
+console.log(livros)
