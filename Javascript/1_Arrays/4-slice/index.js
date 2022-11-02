@@ -1,7 +1,10 @@
 // slice --> "Fatia"
 // contém dois parametros: slice(posição inicial, posição final) 
-// Obs: esses parametros não são obrigatórios
+// Obs: esses parametros não são obrigatórios 
 // O slice não modifica o vetor original
+
+//IMPORTANTE: a posição final é um intervalo aberto --- [a,b)
+
 
 const num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
