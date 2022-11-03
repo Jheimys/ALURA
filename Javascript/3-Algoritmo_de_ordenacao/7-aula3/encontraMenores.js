@@ -1,3 +1,9 @@
+//Etapa 1: Encontrar quantos elementos possui preços menores que meu elemento pivo.
+
+//Etapa 2: Posicionar o pivo 
+
+//Etapa 3: dividir a lista a partir do pivo
+
 const listaLivros = require('./array')
 
 function encontraMenores(pivo, array){
@@ -44,4 +50,6 @@ function divideNoPivo(array){
 
 //console.log(encontraMenores(listaLivros[2], listaLivros))
 
-console.log(divideNoPivo(listaLivros))
+//console.log(divideNoPivo(listaLivros))
+
+module.exports = trocaLugares
