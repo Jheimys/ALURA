@@ -12,6 +12,9 @@ frm.addEventListener('submit', (e) =>{
     frm.inNumero.value = ''
     inNumero.focus()
 
+    if(numero == 0 || numero == 1){
+        resposta = `O fatorial de ${numero} é 1`
+    }
 
     for(let i = 1; i < numero; i++){
         resultado *=i
