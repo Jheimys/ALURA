@@ -28,7 +28,10 @@ async function pegaArquivo(caminhoArquivo){
     }
 }
 
- pegaArquivo('./arquivo/texto.md')
+export default pegaArquivo
+
+
+//pegaArquivo('./arquivo/texto.md')
 // pegaArquivo('./arquivo/')
 
 //https://regex101.com/
