@@ -1,0 +1,19 @@
+<script>
+  let num;
+
+  do {
+    num = Number(prompt("Digite o número:"));
+
+    if (num == 0 || isNaN(num)) {
+      alert("Digite um número válido");
+    }
+  } while (num == 0 || isNaN(num));
+
+  let impares = `Os numeros ímpares entre 1 e ${num}: `;
+
+  for (let i = 1; i < num; i = i + 2) {
+    impares += i + ",";
+  }
+
+  alert(impares);
+</script>

@@ -1,0 +1,17 @@
+img.normal{float: left; height: 300px; width: 300px;}
+img.alta{float: left; height: 420px; width: 300px;}
+h1{border-bottom-style: inset;}
+pre{font-size: 1.4em;}
+p{
+    font-size: 1.1em;
+}
+
+#outResp2{
+    color: red;
+}
+
+
+#outResp4{
+    color: green;
+    margin-left: 300px;
+}
