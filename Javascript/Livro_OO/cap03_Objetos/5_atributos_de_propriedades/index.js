@@ -14,7 +14,7 @@
 //Exemplo: Quero que uma propriedade do obj seja não enumerável e não configurável
 
 const person1 = {
-    name: 'Micolas'   //A propriedade name é definida nomarlmente.
+    name: 'Nicolas'   //A propriedade name é definida nomarlmente.
 }
 
 Object.defineProperty(person1, 'name', {
