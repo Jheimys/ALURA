@@ -1,7 +1,7 @@
 //Método filter():
 // - Assim como método map() cria um novo array.
 // A diferença é que cada elemento do vetor é submetido a uma condição
-//se verdadeira , add o elemento a um novo array.
+//se verdadeira, add o elemento a um novo array.
 
 console.log('EXEMPLO 01')
 
