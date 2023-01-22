@@ -36,6 +36,6 @@ const amigos = [
 
 const amigos2 = amigos.filter(aux => aux.idade > 21 || aux.nome.includes('B'))
 
-//console.log(amigos2)  //[ { nome: 'Bruno', idade: 17 }, { nome: 'Cátia', idade: 25 } ]
+console.log(amigos2)  //[ { nome: 'Bruno', idade: 17 }, { nome: 'Cátia', idade: 25 } ]
 
 

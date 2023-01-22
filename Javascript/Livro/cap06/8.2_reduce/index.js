@@ -43,3 +43,6 @@ const num = [10, 13, 20, 8, 15]
 const maior = num.reduce((a,b) => Math.max(a,b), 0)
 
 console.log(maior)
+
+//Fiz um ex. com array de obj noo exercicio 10.1
+
