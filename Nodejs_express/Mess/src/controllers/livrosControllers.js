@@ -30,6 +30,30 @@ class livroController {
             }
         })
     }
+
+    static atualizarLivro = (req, res) => {
+        const id = req.params.id 
+
+        livros.findByIdAndUpdate(id, {$set: req.body}, (err) => {
+            if(err) {
+                res.status(500).send({message: err.message })
+            } else {
+                res.status(200).send({message: `Livro atualizado com sucesso.`})
+            }
+        })
+    }
+
+    static excluirLivro = (req, res) => {
+        const id = req.params.id 
+
+        livros.findByIdAndDelete(id, (err) => {
+            if(err) {
+                res.status(500).send({message: err.message})
+            } else {
+                res.status(200).send({message: `Livro removido com sucesso.`})
+            }
+        })
+    }
 }
 
 export default livroController
