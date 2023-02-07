@@ -8,10 +8,12 @@
 
 - express
 - mongoose
+- nodemon
 
 3 - configurar package.json
 
 - "type": "module"
+- "dev": "nodemon server.js"
 
 4 - Dentro da pasta **_SRC_** criar as pastas
 
@@ -62,6 +64,7 @@ app.listen(port, () => {
 # 5.Schema
 
 - Criar a pasta MODELS e arquivo.js
+- importar o mongoose.
 - modelo de schema de acordo com a documetação:
 
 ```
@@ -73,7 +76,7 @@ const Event = mongoose.model('Event', eventSchema);
 export defalt Event
 ```
 
-- importar arquivo para o app.js
+- importar arquivo para o controllers.js
 
 # 6.Controller
 
