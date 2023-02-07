@@ -21,7 +21,7 @@
 - **_config_**
 - Arquivo **_app.js_**
 
-#2 - App.js
+# 2 - App.js
 
 ### Estrutura básica:
 
@@ -75,7 +75,7 @@ export defalt Event
 
 - importar arquivo para o app.js
 
-#6.Controller
+# 6.Controller
 
 - Criar pasta controllers e arquivoController.js
 
@@ -91,7 +91,7 @@ class arquiviController {
 export defalt arquivo controller
 ```
 
-#7.Rotas
+# 7.Rotas
 
 - Criar a pasta routes
 - importar o express
