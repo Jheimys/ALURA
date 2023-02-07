@@ -1,4 +1,52 @@
-# 1. Conectando ao MongoDB
+# NODEJS COM EXPRESS
+
+# 1 Estrutura básica
+
+1- Criar pasta **_SRC_** e arquivo **_server.js_**
+
+2- instalar os pacotes:
+
+- express
+- mongoose
+
+3 - configurar package.json
+
+- "type": "module"
+
+4 - Dentro da pasta **_SRC_** criar as pastas
+
+- **_models_**
+- **_controllers_**
+- **_routes_**
+- **_config_**
+- Arquivo **_app.js_**
+
+#2 - App.js
+
+### Estrutura básica:
+
+```
+import express from "express"
+
+const app = express()
+
+export default app
+```
+
+# 3 - Server.js
+
+### Estrutura básica
+
+```
+import app from './src/app.js'
+const port = process.env.PORT || 3000
+
+app.listen(port, () => {
+    console.log(`Servidor escutando em http://localhost:${port}`)
+})
+```
+
+# 4. Conectando ao MongoDB
 
 - Instalar mongoose.
 - Dentro da pasta SRC criar a pasta CONFIG e o arquivo dbConect.js.
@@ -11,7 +59,7 @@
     - db.on() para prever erro
     - db.once() p/ abrir conexão.
 
-# 2.Schema
+# 5.Schema
 
 - Criar a pasta MODELS e arquivo.js
 - modelo de schema de acordo com a documetação:
@@ -27,7 +75,7 @@ export defalt Event
 
 - importar arquivo para o app.js
 
-#3.Controller
+#6.Controller
 
 - Criar pasta controllers e arquivoController.js
 
@@ -43,7 +91,7 @@ class arquiviController {
 export defalt arquivo controller
 ```
 
-#4.Rotas
+#7.Rotas
 
 - Criar a pasta routes
 - importar o express
