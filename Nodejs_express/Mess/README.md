@@ -113,6 +113,19 @@ export default router
 
 - Criar o arquivo de index dentro de routes para organizar as rotas.
 - Em index.js
+
   - importar express
   - importar as rotas
   - importar o arquivo index.js p/ app.js e chamar o routes(app)
+
+  # 8.Os códigos de status HTTP mais comuns
+
+- 100, indica que a solicitação foi recebida.
+- **200**, indica sucesso da solicitação.
+- 301, indica que uma página foi movida para outro endereço.
+- 302, indica que uma página foi movida temporariamente.
+- **400**, indica que a solicitação está incorreta.
+- 403, indica que o acesso é proibido.
+- 404, indica que a página não foi encontrada.
+- 410, indica que o recurso não está mais disponível.
+- **500**, indica um erro interno do servidor.
