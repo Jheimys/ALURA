@@ -5,7 +5,7 @@ const heroisSchema = new mongoose.Schema({
     nome: {type: String, required: true},
     poder: {type: String, required: true},
     fraqueza: {type: String, required: true},
-    conpanhia: {type: String, required: true}
+    conpanhia: {type: mongoose.Schema.Types.ObjectId, ref: 'companhia', required: true}
 })
 
 const herois = mongoose.model('herois', heroisSchema)

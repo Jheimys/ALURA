@@ -2,21 +2,25 @@ import herois from '../models/Herois.js'
 
 class heroisController {
     static listarHerois = (req, res) => {
-        herois.find((err, herois) => {
-            res.status(200).json(herois)
-        })
+        herois.find()
+            .populate('conpanhia')
+            .exec((err, herois) => {
+                res.status(200).json(herois)
+            })
     }
 
     static buscarHeroiPorId = (req, res) => {
         const id = req.params.id 
 
-        herois.findById(id, (err, herois) => {
-            if(err) {
-                res.status(400).send({message: `${err.message} - Id não encontrado`})
-            } else {
-                res.status(200).send(herois)
-            }
-        })
+        herois.findById(id)
+            .populate('conpanhia', 'nome')
+            .exec((err, herois) => {
+                if(err) {
+                    res.status(400).send({message: `${err.message} - Id não encontrado`})
+                } else {
+                    res.status(200).send(herois)
+                }
+            })
     }
 
     static cadastrarHeroi = (req, res) => {

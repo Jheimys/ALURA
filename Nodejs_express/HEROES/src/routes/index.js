@@ -1,4 +1,5 @@
 import express from "express"
+import companhia from "./companhiaRoutes.js"
 import herois from "./heroisRoutes.js"
 
 const routes = (app) => {
@@ -8,7 +9,8 @@ const routes = (app) => {
 
     app.use(
         express.json(),
-        herois
+        herois,
+        companhia
     )
 }
 
