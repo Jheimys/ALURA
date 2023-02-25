@@ -101,6 +101,8 @@ em strong {
     border-radius: 5px;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 .beneficio li:hover {
