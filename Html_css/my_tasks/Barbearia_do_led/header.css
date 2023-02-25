@@ -1,0 +1,49 @@
+
+/*HEADER CSS*/
+
+header {
+    /* background: #92a4b9; */
+    background: var(--cor-cinza-principal);
+    padding: 15px 0;
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.box img {
+    mix-blend-mode: multiply;
+}
+
+h2{
+    margin: 20px  0 0 50px;
+    font-size: 30px;
+    font-family: var(--fonte-principal);
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 125px;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: var(--cor-preto);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:var(--cor-azul-cabecalho);
+    text-decoration: underline;
+}

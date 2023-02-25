@@ -1,56 +1,4 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    /* background: #92a4b9; */
-    background: #BBBBBB;
-    padding: 15px 0;
-}
-
-.box{
-    width: 940px;
-    position: relative;
-    margin: 20px auto;
-}
-
-.box img {
-    mix-blend-mode: multiply;
-}
-
-h2{
-    margin: 20px  0 0 50px;
-    font-size: 30px;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-nav{
-    position: absolute;
-    right: 0;
-    top: 125px;
-}
-
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 22px;
-    color: black;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color:#6156c3;
-    text-decoration: underline;
-}
 
 #banner{
     margin-top: 5px;
@@ -79,7 +27,7 @@ p{
 }
 
 em strong {
-    color: brown;
+    color:var(--cor-marron);
 }
 
 .beneficio ul {
@@ -93,13 +41,13 @@ em strong {
 
 .beneficio li {
     font-size: 18px;
-    background: #BBBBBB;
+    background: var(--cor-cinza-principal);
     margin: 10px;
     width: 300px;
     padding: 20px 5px;
-    border: 2px solid #beb9d1;
+    border: 2px solid var(--cor-cinza-secundario);
     border-radius: 5px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: var(--fonte-principal);
     text-align: center;
     transition: 1s all;
     cursor: pointer;
@@ -107,7 +55,7 @@ em strong {
 
 .beneficio li:hover {
     /* background: #6156c3; */
-    background: white;
+    background: var(--cor-branca);
 }
 
 .imagemBeneficios {
@@ -115,15 +63,5 @@ em strong {
     padding: 20px;
 }
 
-footer {
-    background: #BBBBBB;
-    padding: 30px 0;
-    margin-bottom: 5px;
-}
 
-.copyright {
-    color: brown;
-    font-size: 13px;
-    margin: 20px 0 0;
-}
 

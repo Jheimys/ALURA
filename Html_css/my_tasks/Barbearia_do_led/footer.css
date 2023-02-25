@@ -1,0 +1,13 @@
+/* FOOTER CSS */
+
+footer {
+    background: var(--cor-cinza-principal);
+    padding: 30px 0;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    color: var(--cor-marron);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
